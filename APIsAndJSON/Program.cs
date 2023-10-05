@@ -1,4 +1,6 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using System.Net.Http;
+using System.Threading.Tasks;
+using Newtonsoft.Json.Linq;
 
 namespace APIsAndJSON
 {
@@ -6,7 +8,8 @@ namespace APIsAndJSON
     {
         static void Main(string[] args)
         {
-            RonVSKanyeAPI.ConvoAsync();
-        }
+            RonVSKanyeAPI.ConvoAsync(); //Exercise #1
+        }   
     }
 }
+
